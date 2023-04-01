@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -70,3 +75,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+.dropdown {
+  animation: translate 0.5s;
+}
+
+@keyframes translate {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

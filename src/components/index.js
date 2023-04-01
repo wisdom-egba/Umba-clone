@@ -1,3 +1,5 @@
 import Header from "./Header"
+import NavBar from "./NavBar"
+import Info from "../Info"
 
-export { Header }
+export { Header, NavBar, Info }
