@@ -11,10 +11,10 @@ const NavBar = () => {
     setToggle(!toggle)
   }
   return (
-    <div className="w-full h-[70px] bg-slate-50 ">
+    <div className="w-full h-[90px] bg-slate-50 shadow-lg ">
       <div className="max-w-[450px] md:max-w-[1124px]  m-auto h-full w-full items-center flex justify-between">
         <img src={logo} className="w-[110px]" alt="" />
-        <div className="hidden md:flex justify-center items-center">
+        <div className="hidden md:hidden lg:flex justify-center items-center">
           <ul className="flex items-center gap-4">
             <li className="mx-5 p-5">
               <a className="font-semibold" href="">
@@ -41,7 +41,7 @@ const NavBar = () => {
               onMouseLeave={() => setOpen(false)}
               className="bg-[#3d7cc9] text-white flex items-center justify-between cursor-pointer "
             >
-              <h1 className="p-5 text-md">Download umba</h1>
+              <h1 className="py-4 px-6 text-md">Download umba</h1>
               <MdOutlineKeyboardArrowDown
                 size={25}
                 style={{ marginRight: "9px" }}
@@ -66,7 +66,7 @@ const NavBar = () => {
           </ul>
         </div>
         {/* Hamburger Menu toggle */}
-        <div className="md:hidden cursor-pointer" onClick={handleClick}>
+        <div className="lg:hidden cursor-pointer" onClick={handleClick}>
           {toggle ? (
             <div className="p-3 bg-slate-400 h-full">
               <FaAlignJustify

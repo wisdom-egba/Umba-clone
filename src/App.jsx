@@ -1,4 +1,4 @@
-import { Header, Info, NavBar } from "./components"
+import { Banking, Finance, Header, Info, NavBar } from "./components"
 
 function App() {
   return (
@@ -6,6 +6,8 @@ function App() {
       <Header />
       <NavBar />
       <Info />
+      <Finance />
+      <Banking />
     </div>
   )
 }
