@@ -85,7 +85,7 @@ const NavBar = () => {
       <div
         className={
           toggle
-            ? " relative z-10 p-4 px-8 w-full bg-white md:hidden rounded-b-lg mt-2 dropdown top-[-9%]  duration-500"
+            ? " relative z-10 p-4 px-8 w-full bg-white md:hidden rounded-b-lg mt-2 dropdown top-[-9%]  duration-500 "
             : "hidden"
         }
       >

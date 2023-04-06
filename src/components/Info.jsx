@@ -1,7 +1,7 @@
 import React from "react"
-import playstore from "./assets/playstore.png"
-import appstore from "./assets/applestore.png"
-import phone from "./assets/phone.png"
+import playstore from "../assets/playstore.png"
+import appstore from "../assets/applestore.png"
+import phone from "../assets/phone.png"
 
 const Info = () => {
   return (

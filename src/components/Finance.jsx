@@ -1,5 +1,5 @@
 import React from "react"
-import phone2 from "./assets/phone2.png"
+import phone2 from "../assets/phone2.png"
 
 const Finance = () => {
   return (
