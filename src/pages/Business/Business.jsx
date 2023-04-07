@@ -1,11 +1,14 @@
 import React from "react"
-import { Link } from "react-router-dom"
-import { Footer } from "../../components"
+import Footer from "../../components/Footer"
+
+import BisHeader from "./BisHeader"
+import BisNavBar from "./BisNavBar"
 
 const Business = () => {
   return (
     <div>
-      <Link to="/">Home</Link>
+      <BisHeader />
+      <BisNavBar />
       <Footer />
     </div>
   )
