@@ -36,12 +36,8 @@ const BisNavBar = () => {
                 contact
               </a>
             </li>
-            <div className="bg-[#3d7cc9] text-white flex items-center justify-between cursor-pointer ">
-              <h1 className="py-4 px-6 text-md">Download umba</h1>
-              <MdOutlineKeyboardArrowDown
-                size={25}
-                style={{ marginRight: "9px" }}
-              />
+            <div className="bg-[#0d3356] hover:bg-[#295994] text-white flex items-center justify-between cursor-pointer ">
+              <h1 className="py-4 px-6 text-md">Login/Sign Up</h1>
             </div>
           </ul>
         </div>
@@ -76,12 +72,8 @@ const BisNavBar = () => {
           <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">Contact</li>
 
           <div>
-            <button className=" bg-[#3d7cc9] m-auto px-5 py-3 text-white font-semibold hover:bg-[#498ee2] flex justify-center items-center">
-              Download Umba
-              <MdOutlineKeyboardArrowDown
-                size={25}
-                style={{ marginRight: "9px" }}
-              />
+            <button className=" bg-[#0d3356] m-auto px-5 py-3 text-white font-semibold hover:bg-[#295994] flex justify-center items-center">
+              Login/Sign Up
             </button>
           </div>
         </ul>
