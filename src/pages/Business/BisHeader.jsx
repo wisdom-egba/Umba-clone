@@ -13,7 +13,7 @@ const BisHeader = () => {
           </Link>
 
           <Link
-            className="py-5 px-7 bg-[#3d7cc9] ml-7 text-white  hover:text-white"
+            className="py-5 px-6 bg-[#3d7cc9] ml-7 text-white  hover:text-white"
             to="/business"
           >
             Business

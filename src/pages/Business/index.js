@@ -1,7 +1,8 @@
-import Footer from "../../components/Footer"
 import BisHeader from "./BisHeader"
 import BisInfo from "./BisInfo"
 import BisNavBar from "./BisNavBar"
+import BisSponsor from "./BisSponsor"
+import Footer from "../../components/Footer"
 import Business from "./Business"
 
-export { Business, BisHeader, BisNavBar, Footer, BisInfo }
+export { Footer, Business, BisHeader, BisNavBar, BisInfo, BisSponsor }

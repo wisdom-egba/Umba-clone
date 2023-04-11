@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa"
 import { Link } from "react-router-dom"
 const Footer = () => {
   return (
-    <div className=" mt-[180px] w-full bg-[#e0eaf6] md:py-16">
+    <div className=" mt-[180px] w-full bg-[#e0eaf6] md:py-16 m-auto">
       <div className=" ml-5 max-w-[370px] md:max-w-[77%] lg:max-w-[55%] m-auto grid md:grid-cols-5 pt-12  ">
         <div className="flex flex-col mr-16 ">
           <img className="w-[25%] md:w-[50%]" src={umba} alt="" />

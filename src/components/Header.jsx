@@ -11,7 +11,7 @@ const Header = () => {
           </Link>
 
           <Link
-            className="p-5 bg-[#c3e0f9]  ml-7 hover:bg-[#3d7cc9] hover:text-white"
+            className="px-5 py-5 bg-[#c3e0f9]  ml-7 hover:bg-[#3d7cc9] hover:text-white"
             to="/business"
           >
             Business
