@@ -4,6 +4,7 @@ import BisHeader from "./BisHeader"
 import BisInfo from "./BisInfo"
 import BisNavBar from "./BisNavBar"
 import BisSponsor from "./BisSponsor"
+import BisService from "./BisService"
 
 const Business = () => {
   return (
@@ -12,6 +13,7 @@ const Business = () => {
       <BisNavBar />
       <BisInfo />
       <BisSponsor />
+      <BisService />
       <Footer />
     </div>
   )

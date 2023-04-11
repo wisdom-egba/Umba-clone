@@ -6,7 +6,7 @@ const BisInfo = () => {
   return (
     <div className="w-full bg-[white] pt-[10px] md:pt-[10px] lg:pt-[0px] ">
       <div className="max-w-[100%] bg-[#e0eaf6] m-auto  grid rounded-br-[180px] pb-10 md:pb-[230px] lg:pb-[150px] lg:h-[1000px]">
-        <div className="md:flex m-auto justify-center max-w-[340px] md:max-w-[82%] lg:max-w-[58%]">
+        <div className="md:flex m-auto justify-center max-w-[340px] md:max-w-[82%] lg:max-w-[55%] ">
           <div className="w-[80%] m-auto py-4 pt-[50px] lg:py-0 lg:pt-0 md:pt-0">
             <h1 className="text-3xl md:text-7xl lg:text-8xl">
               Maximizing work efficiency, every day!
@@ -41,7 +41,7 @@ const BisInfo = () => {
           </div>
         </div>
       </div>
-      <div className="relative z-20 max-w-[340px] md:max-w-[82%] lg:max-w-[58%] m-auto mt-[70px] md:mt-0 md:top-[-130px] lg:top-[100px]">
+      <div className="relative z-20 max-w-[340px] md:max-w-[82%] lg:max-w-[58%] m-auto mt-[70px] md:mt-0 md:top-[-130px] lg:top-[-400px]">
         <div>
           <img
             className="w-[60%] m-auto lg:w-[95%] md:w-[92%]"
