@@ -5,6 +5,8 @@ import BisInfo from "./BisInfo"
 import BisNavBar from "./BisNavBar"
 import BisSponsor from "./BisSponsor"
 import BisService from "./BisService"
+import BisSignUp from "./BisSignUp"
+import BisQuestion from "./BisQuestion"
 
 const Business = () => {
   return (
@@ -14,6 +16,8 @@ const Business = () => {
       <BisInfo />
       <BisSponsor />
       <BisService />
+      <BisSignUp />
+      <BisQuestion />
       <Footer />
     </div>
   )
