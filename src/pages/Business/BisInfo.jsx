@@ -15,22 +15,25 @@ const BisInfo = () => {
           <div>
             <form action="" className="pt-1 max-w-[88%] m-auto md:max-w-[100%]">
               <input
-                className="rounded-[40px] w-full p-2 border border-transparent focus:border-white"
+                className="rounded-[40px] mt-2 flex h-12 w-full items-center justify-center border bg-white p-3 text-sm outline-none focus:border-blue-200"
                 type="text"
                 placeholder="Name"
                 id="name"
               />
-              <div className="flex gap-5 py-8">
-                <input
-                  className="rounded-[40px] p-2 w-[80%]"
-                  type="email"
-                  placeholder="Work mail"
-                />
-                <input
-                  className="rounded-[40px] p-2 w-[80%]"
-                  type="number"
-                  placeholder="Phone no."
-                />
+              <div className="flex justify-center items-center gap-5 py-8">
+                <div>
+                  <input
+                    className="rounded-[40px] p-2 mt-2 w-[50%] border focus:bg-white  text-sm outline-none focus:border-blue-300"
+                    type="email"
+                    name="email"
+                    placeholder="Work mail"
+                  />
+                  <input
+                    className="rounded-[40px] p-2 w-[50%] focus:border-blue-200 outline-none"
+                    type="tel"
+                    placeholder="Phone no."
+                  />
+                </div>
               </div>
               <div className="py-7 pt-10 md:py-7 md:w-[60%]">
                 <button className="bg-[#3d7cc9] hover:bg-[#0d3356] md:bg-[#0d3356] w-full m-auto px-5 py-2 text-white font-semibold text-lg ">

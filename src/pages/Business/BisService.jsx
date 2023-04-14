@@ -35,7 +35,7 @@ const BisService = () => {
                 <img className="w-[17%]" src={wallet} alt="" />
               </div>
               <h1 className="text-3xl mt-[30px] ">Saving Accounts</h1>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg md:py-4">
                 High interest savings accounts; allows users to set a fixed
                 amount or % that gets deducted from their salary
               </p>
@@ -49,7 +49,7 @@ const BisService = () => {
                 <img className="w-[17%]" src={icon2} alt="" />
               </div>
               <h1 className="text-3xl mt-[30px] ">Salary Advance</h1>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg md:py-4">
                 Allows users to draw down up to 50% of their accrued net salary
                 any day of the month
               </p>
@@ -62,7 +62,7 @@ const BisService = () => {
                 <img className="w-[17%]" src={icon3} alt="" />
               </div>
               <h1 className="text-3xl mt-[30px] ">Installment Loans</h1>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg md:py-4">
                 Allows users to borrow up to 3x of their monthly salary, 3- 9
                 months for as low as a 5% monthly rate
               </p>
@@ -75,7 +75,9 @@ const BisService = () => {
                 <img className="w-[17%]" src={icon4} alt="" />
               </div>
               <h1 className="text-3xl mt-[30px] ">Link External Accounts</h1>
-              <p>Seamless connection with secondary bank accounts.</p>
+              <p className="font-semibold text-lg md:py-4">
+                Seamless connection with secondary bank accounts.
+              </p>
             </div>
           </div>
           {/* section 5 */}
@@ -85,7 +87,7 @@ const BisService = () => {
                 <img className="w-[17%]" src={icon5} alt="" />
               </div>
               <h1 className="text-3xl mt-[30px] ">Visibility</h1>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg md:py-4">
                 Employee management dashboard with insights into employee
                 financial health.
               </p>
@@ -98,7 +100,7 @@ const BisService = () => {
                 <img className="w-[17%]" src={icon6} alt="" />
               </div>
               <h1 className="text-3xl mt-[30px] ">Automated Payroll</h1>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg md:py-4">
                 Cut down on admin hours with simple book-keeping and accounting.
               </p>
             </div>
