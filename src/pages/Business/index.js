@@ -7,7 +7,7 @@ import Business from "./Business"
 import BisService from "./BisService"
 import BisSignUp from "./BisSignUp"
 import BisQuestion from "./BisQuestion"
-
+import Accordion from "./Accordion"
 export {
   Footer,
   Business,
@@ -18,4 +18,5 @@ export {
   BisService,
   BisSignUp,
   BisQuestion,
+  Accordion,
 }

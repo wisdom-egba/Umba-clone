@@ -1,11 +1,7 @@
-import { AnimatePresence, color, motion } from "framer-motion"
-import { AiOutlinePlusCircle, AiOutlineMinusCircle } from "react-icons/ai"
 import React from "react"
-import { useState } from "react"
+import Accordion from "./Accordion"
+import { data } from "./data"
 const BisQuestion = () => {
-  const [toggle, setToggle] = useState(false)
-
-  console.log(toggle)
   return (
     <>
       <div className="w-full bg-[white] pt-[50px] md:pt-[100px]">
@@ -16,35 +12,15 @@ const BisQuestion = () => {
             </h>
             <p className="text-lg">Everything you need to know</p>
           </div>
-          <div className="mr-7 ml-7 border-b border-gray-200 ">
-            <div
-              className="pt-6 cursor-pointer flex justify-between "
-              onClick={() => setToggle(!toggle)}
-            >
-              <h1 className="font-semibold text-lg pb-7">Who is Umba?</h1>
-              <div className="text-red">
-                {toggle ? (
-                  <AiOutlineMinusCircle size={28} />
-                ) : (
-                  <AiOutlinePlusCircle size={28} />
-                )}
-              </div>
-            </div>
-            <AnimatePresence>
-              {toggle && (
-                <motion.div
-                  initial={{ height: 0 }}
-                  animate={{ height: "auto" }}
-                  exit={{ height: 0 }}
-                  transition={{ duration: 0.3 }}
-                  className="overflow-clip"
-                >
-                  <p className=" pb-7 text-[17px]">
-                    Umba is a digital bank operating in Kenya and Nigeria
-                  </p>
-                </motion.div>
-              )}
-            </AnimatePresence>
+          <div>
+            {data.map((items, id) => {
+              const [question, answer] = items
+              return (
+                <div key={id}>
+                  <Accordion question={question} answer={answer} />
+                </div>
+              )
+            })}
           </div>
         </div>
       </div>
