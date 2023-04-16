@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     id: 1,
     question: "Who is Umba?",
@@ -13,7 +13,11 @@ const data = [
   {
     id: 3,
     question: "What are the benefits of using Umba to the employees?",
-    answer: "Umba is a digital bank operating in Kenya and Nigeria",
+    answer: `1. Savings account with interest rate
+2. Cashback on bills payment
+3. Salary allocation settings
+4. Salary advance
+5. Installment loans and lots more`,
   },
   {
     id: 4,
@@ -48,7 +52,8 @@ const data = [
   {
     id: 9,
     question: "Do employees have to get paid into the Umba account?",
-    answer: "Umba is a digital bank operating in Kenya and Nigeria",
+    answer:
+      "Employees can choose where they want to get paid whether Umba accounts or non-Umba accounts. However, they need Umba accounts to enjoy the benefits available with Umba.",
   },
   {
     id: 10,

@@ -1,15 +1,17 @@
 import React, { useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { AiOutlinePlusCircle, AiOutlineMinusCircle } from "react-icons/ai"
-const Accordion = ({ id, question, answer }) => {
+const Accordion = ({ question, answer }) => {
   const [toggle, setToggle] = useState(false)
   return (
-    <div className="mr-7 ml-7 border-b border-gray-200 ">
+    <div className="m-2 md:m-0 md:mr-7 md:ml-7 border-b border-gray-200 ">
       <div
         className="pt-6 cursor-pointer flex justify-between "
         onClick={() => setToggle(!toggle)}
       >
-        <h1 className="font-semibold text-lg pb-7">{question}</h1>
+        <h1 className="font-semibold text-lg pb-7 text-[#4b557f]">
+          {question}
+        </h1>
         <div className="text-red">
           {toggle ? (
             <AiOutlineMinusCircle size={28} />
