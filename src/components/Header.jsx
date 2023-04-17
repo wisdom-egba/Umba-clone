@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <div className="w-full h-[60px] bg-slate-200 ">
+    <div className="w-full h-[62px] bg-slate-200 ">
       <div className="max-w-[1124px] h-[60px] m-auto ">
         <div className="flex justify-start items-center h-full">
-          <Link to="/" className="p-5 bg-[#3d7cc9] text-white ">
+          <Link to="/" className="px-3 py-5 bg-[#3d7cc9] text-white ">
             For Individuals
           </Link>
 
@@ -14,7 +14,7 @@ const Header = () => {
             className="px-5 py-5 bg-[#c3e0f9]  ml-7 hover:bg-[#3d7cc9] hover:text-white"
             to="/business"
           >
-            Business
+            For Business
           </Link>
         </div>
       </div>

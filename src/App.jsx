@@ -10,7 +10,7 @@ import {
   Security,
 } from "./components"
 import { Business } from "./pages/Business"
-import { Career } from "./pages/Career"
+import { Career, CareerHeader } from "./pages/Career"
 import { ContactUs } from "./pages/Contact"
 function App() {
   return (
@@ -33,7 +33,16 @@ function App() {
             }
           />
           <Route path="/business" element={<Business />} />
-          <Route path="/career" element={<Career />} />
+          <Route
+            path="/career"
+            element={
+              <div>
+                <CareerHeader />
+                <NavBar />
+                <Career />
+              </div>
+            }
+          />
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </Router>

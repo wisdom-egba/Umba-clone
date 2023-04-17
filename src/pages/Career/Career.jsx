@@ -1,7 +1,14 @@
 import React from "react"
+import CareerInfo from "./CareerInfo"
+import { Footer } from "../Business"
 
 const Career = () => {
-  return <div></div>
+  return (
+    <div>
+      <CareerInfo />
+      <Footer />
+    </div>
+  )
 }
 
 export default Career

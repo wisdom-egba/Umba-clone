@@ -11,7 +11,7 @@ const NavBar = () => {
     setToggle(!toggle)
   }
   return (
-    <div className="w-full h-[90px] bg-slate-50 shadow-lg ">
+    <div className="w-full h-[90px] bg-[#ffff] drop-shadow-xl ">
       <div className="max-w-[450px] md:max-w-[1124px]  m-auto h-full w-full items-center flex justify-between">
         <img src={logo} className="w-[110px]" alt="" />
         <div className="hidden md:hidden lg:flex justify-center items-center">
