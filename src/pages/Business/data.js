@@ -13,11 +13,10 @@ export const data = [
   {
     id: 3,
     question: "What are the benefits of using Umba to the employees?",
-    answer: `1. Savings account with interest rate
-2. Cashback on bills payment
-3. Salary allocation settings
-4. Salary advance
-5. Installment loans and lots more`,
+    answer: `1. Savings account with interest rate 2. Cashback on bills payment
+      3. Salary allocation settings
+      4. Salary advance
+      5. Installment loans and lots more`,
   },
   {
     id: 4,

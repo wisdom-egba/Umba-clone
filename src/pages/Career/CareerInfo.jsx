@@ -5,9 +5,9 @@ import jazzHR from "../../assets/jazzHr.png"
 const CareerInfo = () => {
   return (
     <div className="w-full bg-[white] pt-[50px] md:pt-[50px]">
-      <div className="max-w-[340px] md:max-w-[80%] lg:max-w-[70%] m-auto py-10 grid  ">
+      <div className="max-w-[340px] md:max-w-[80%] lg:max-w-[40%] m-auto py-10 grid  ">
         <div className="w-full grid ">
-          <h className="text-center md:text-start max-w-[70%] m-auto text-[40px] md:text-[49px] text-[#3672bd] font-bold leading-tight md:ml-6 pb-12 ">
+          <h className="text-center md:text-start max-w-[80%] m-auto text-[45px] md:text-[49px] text-[#3672bd] font-bold leading-tight md:ml-6 pb-12 ">
             Come work with us!
           </h>
         </div>

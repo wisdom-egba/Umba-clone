@@ -1,10 +1,9 @@
 import React, { useState } from "react"
-import logo from "../assets/logo.png"
-import { BsXLg } from "react-icons/bs"
 import { FaAlignJustify } from "react-icons/fa"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md"
+import logo from "../../assets/logo.png"
 
-const NavBar = () => {
+const ContactNav = () => {
   const [toggle, setToggle] = useState(false)
   const [open, setOpen] = useState(false)
   const handleClick = () => {
@@ -51,7 +50,7 @@ const NavBar = () => {
               <ul
                 onMouseOver={() => setOpen(false)}
                 onMouseLeave={() => setOpen(false)}
-                className={`absolute top-[120px] w-[200px] mt-4 right-30 py-2  rounded-b-md shadow-xl bg-gray-300 ${
+                className={`absolute top-[120px] w-[200px] mt-3 right-30 py-2  rounded-b-md shadow-xl bg-gray-300 ${
                   open ? "block" : "hidden"
                 }`}
               >
@@ -128,4 +127,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default ContactNav
