@@ -14,7 +14,7 @@ const ContactNav = () => {
       <div className="max-w-[450px] md:max-w-[1124px]  m-auto h-full w-full items-center flex justify-between">
         <img src={logo} className="w-[110px]" alt="" />
         <div className="hidden md:hidden lg:flex justify-center items-center">
-          <ul className="flex items-center gap-4">
+          <ul className="flex items-center gap-2">
             <li className="mx-5 p-5">
               <a className="font-semibold" href="">
                 Press

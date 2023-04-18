@@ -13,7 +13,7 @@ const ContactPage = () => {
   const text2 = "Connect with our Customer Experience team for support"
   const text3 = "Be a part of the future. Talk to our Capital Markets team"
   return (
-    <div className="w-full bg-white md:flex flex-col justify-center items-center lg:grid lg:grid-cols-3">
+    <div className="w-full bg-white md:flex flex-col justify-center items-center lg:max-w-[60%] m-auto lg:mt-9 lg:grid lg:grid-cols-3 ">
       <ContactCards title={title1} btn={btn1} text={text1} />
       <ContactCards title={title2} btn={btn2} text={text2} />
       <ContactCards title={title3} btn={btn1} text={text3} />

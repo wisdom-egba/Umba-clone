@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <div className=" mt-[180px] w-full bg-[#e0eaf6] md:py-16 m-auto">
-      <div className=" ml-5 max-w-[370px] md:max-w-[77%] lg:max-w-[55%] m-auto grid md:grid-cols-5 pt-12  ">
+      <div className=" max-w-[370px] md:max-w-[77%] lg:max-w-[55%] m-auto grid md:grid-cols-5 pt-12  ">
         <div className="flex flex-col mr-16 ">
           <img className="w-[25%] md:w-[50%]" src={umba} alt="" />
         </div>
@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="mb-3">
               <a
                 className="flex gap-3  items-center hover:text-[#3d7cc9]"
-                href=""
+                href="https://twitter.com/UmbaMobile"
               >
                 <AiOutlineTwitter size={20} />
                 Twitter
@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="mb-3">
               <a
                 className="flex gap-3  items-center hover:text-[#3d7cc9]"
-                href=""
+                href="https://web.facebook.com/umbamobile/"
               >
                 <BsFacebook size={20} />
                 Facebook
@@ -71,7 +71,7 @@ const Footer = () => {
             <div className="mb-3">
               <a
                 className="flex gap-3 items-center hover:text-[#d14731]"
-                href=""
+                href="https://www.instagram.com/UmbaMobile/"
               >
                 <FaInstagram size={20} />
                 Instagram
@@ -80,7 +80,7 @@ const Footer = () => {
             <div className="mb-3">
               <a
                 className="flex gap-3 items-center hover:text-[#3d7cc9]"
-                href=""
+                href="https://www.linkedin.com/company/umbamobile/"
               >
                 <BsLinkedin size={20} />
                 LinkedIn
