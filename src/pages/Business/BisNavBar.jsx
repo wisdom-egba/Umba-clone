@@ -14,27 +14,35 @@ const BisNavBar = () => {
     <div className="w-full h-[90px] bg-slate-50 drop-shadow-lg ">
       <div className="max-w-[450px] md:max-w-[1124px]  m-auto h-full w-full items-center flex justify-between">
         <img src={logo} className="w-[110px]" alt="" />
-        <div className="hidden md:hidden lg:flex justify-center items-center">
+        <div className="hidden md:flex justify-center items-center">
           <ul className="flex items-center gap-4">
             <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                Press
-              </a>
+              <Link to="/press">
+                <a className="font-semibold" href="">
+                  Press
+                </a>
+              </Link>
             </li>
             <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                career
-              </a>
+              <Link to="/career">
+                <a className="font-semibold" href="">
+                  career
+                </a>
+              </Link>
             </li>
             <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                blog
-              </a>
+              <Link to="/blog">
+                <a className="font-semibold" href="">
+                  blog
+                </a>
+              </Link>
             </li>
             <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                contact
-              </a>
+              <Link to="/contact">
+                <a className="font-semibold" href="">
+                  contact
+                </a>
+              </Link>
             </li>
             <div className="bg-[#0d3356] hover:bg-[#295994] text-white flex items-center justify-between cursor-pointer ">
               <h1 className="py-4 px-6 text-md">Login/Sign Up</h1>

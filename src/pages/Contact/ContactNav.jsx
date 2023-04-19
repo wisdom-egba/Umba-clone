@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { FaAlignJustify } from "react-icons/fa"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md"
 import logo from "../../assets/logo.png"
+import { Link } from "react-router-dom"
 
 const ContactNav = () => {
   const [toggle, setToggle] = useState(false)
@@ -13,27 +14,35 @@ const ContactNav = () => {
     <div className="w-full h-[90px] bg-[#ffff]">
       <div className="max-w-[450px] md:max-w-[1124px]  m-auto h-full w-full items-center flex justify-between">
         <img src={logo} className="w-[110px]" alt="" />
-        <div className="hidden md:hidden lg:flex justify-center items-center">
+        <div className="hidden md:flex justify-center items-center">
           <ul className="flex items-center gap-2">
-            <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                Press
-              </a>
+            <li className="mx-5 p-3">
+              <Link to="/press">
+                <a className="font-semibold" href="">
+                  Press
+                </a>
+              </Link>
             </li>
-            <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                career
-              </a>
+            <li className="mx-5 p-3">
+              <Link to="/career">
+                <a className="font-semibold" href="">
+                  career
+                </a>
+              </Link>
             </li>
-            <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                blog
-              </a>
+            <li className="mx-5 p-3">
+              <Link to="/blog">
+                <a className="font-semibold" href="">
+                  blog
+                </a>
+              </Link>
             </li>
-            <li className="mx-5 p-5">
-              <a className="font-semibold" href="">
-                contact
-              </a>
+            <li className="mx-5 p-3">
+              <Link to="/contact">
+                <a className="font-semibold" href="">
+                  contact
+                </a>
+              </Link>
             </li>
             <div
               onMouseOver={() => setOpen(true)}
