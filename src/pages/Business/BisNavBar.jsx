@@ -26,21 +26,21 @@ const BisNavBar = () => {
             <li className="mx-5 p-5">
               <Link to="/career">
                 <a className="font-semibold" href="">
-                  career
+                  Career
                 </a>
               </Link>
             </li>
             <li className="mx-5 p-5">
               <Link to="/blog">
                 <a className="font-semibold" href="">
-                  blog
+                  Blog
                 </a>
               </Link>
             </li>
             <li className="mx-5 p-5">
               <Link to="/contact">
                 <a className="font-semibold" href="">
-                  contact
+                  Contact
                 </a>
               </Link>
             </li>
@@ -84,7 +84,7 @@ const BisNavBar = () => {
           <li className="p-2  cursor-pointer my-6 hover:bg-gray-100">
             <Link to="/career">
               <a className="font-semibold" href="">
-                career
+                Career
               </a>
             </Link>
           </li>
@@ -94,14 +94,14 @@ const BisNavBar = () => {
                 className="font-semibold focus:text-[#3d7cc9] active:text-[#3d7cc9]"
                 href=""
               >
-                blog
+                Blog
               </a>
             </Link>
           </li>
           <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">
             <Link to="/contact">
               <a className="font-semibold" href="">
-                contact
+                Contact
               </a>
             </Link>
           </li>

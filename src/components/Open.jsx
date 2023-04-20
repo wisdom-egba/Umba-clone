@@ -18,12 +18,12 @@ const Open = () => {
             </p>
             <div className="flex py-6 gap-4 lg:py-2 ">
               <div>
-                <a href="#">
+                <a href="https://play.google.com/store/apps/details?id=com.beatha.mkopokaka&pli=1">
                   <img className="md:w-[62%]" src={playstore} alt="" />
                 </a>
               </div>
               <div>
-                <a href="#">
+                <a href="https://apps.apple.com/us/app/umba/id1572066078">
                   <img className="md:w-[62%]" src={appstore} alt="" />
                 </a>
               </div>

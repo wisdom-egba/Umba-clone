@@ -90,8 +90,8 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center items-center py-8">
-        <p className="pt- text-[15px] leading-tight">
+      <div className="flex justify-center items-center py-8 md:py-0 md:mt-20 ">
+        <p className=" text-[15px] leading-tight md:pt-20">
           Copyright @ 2023 Umba. All rights reserved
         </p>
       </div>

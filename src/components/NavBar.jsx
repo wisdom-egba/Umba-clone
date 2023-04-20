@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 // import { BsXLg } from "react-icons/bs"
 import { FaAlignJustify } from "react-icons/fa"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md"
-import { Link } from "react-router-dom"
+import { Link, Router } from "react-router-dom"
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false)
@@ -27,21 +27,21 @@ const NavBar = () => {
             <li className="mx-5 p-5">
               <Link to="/career">
                 <a className="font-semibold" href="">
-                  career
+                  Career
                 </a>
               </Link>
             </li>
             <li className="mx-5 p-5">
               <Link to="/blog">
                 <a className="font-semibold" href="">
-                  blog
+                  Blog
                 </a>
               </Link>
             </li>
             <li className="mx-5 p-5">
               <Link to="/contact">
                 <a className="font-semibold" href="">
-                  contact
+                  Contact
                 </a>
               </Link>
             </li>
@@ -60,7 +60,7 @@ const NavBar = () => {
               <ul
                 onMouseOver={() => setOpen(false)}
                 onMouseLeave={() => setOpen(false)}
-                className={`absolute top-[120px] w-[200px] mt-4 right-30 py-2  rounded-b-md shadow-xl bg-gray-300 ${
+                className={`absolute top-[120px] w-[205px] mt-3 right-30 py-2  rounded-b-md shadow-xl bg-gray-300 ${
                   open ? "block" : "hidden"
                 }`}
               >
@@ -109,21 +109,21 @@ const NavBar = () => {
           <li className="p-2  cursor-pointer my-6 hover:bg-gray-100">
             <Link to="/career">
               <a className="font-semibold" href="">
-                career
+                Career
               </a>
             </Link>
           </li>
           <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">
             <Link to="/blog">
               <a className="font-semibold" href="">
-                blog
+                Blog
               </a>
             </Link>
           </li>
           <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">
             <Link to="/contact">
               <a className="font-semibold" href="">
-                contact
+                Contact
               </a>
             </Link>
           </li>
@@ -143,7 +143,7 @@ const NavBar = () => {
             <ul
               onMouseOver={() => setOpen(false)}
               onMouseLeave={() => setOpen(false)}
-              className={`w-[190px] py-2 rounded-b-md m-auto shadow-xl bg-gray-300 ${
+              className={`w-[200px] py-2 rounded-b-md m-auto shadow-xl bg-gray-300 ${
                 open ? "block" : "hidden"
               }`}
             >

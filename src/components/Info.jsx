@@ -20,10 +20,10 @@ const Info = () => {
                 phone.
               </p>
               <div className="flex items-center py-6 gap-4 md:gap-0">
-                <a href="#">
+                <a href="https://play.google.com/store/apps/details?id=com.beatha.mkopokaka&pli=1">
                   <img className="md:w-[75%]" src={playstore} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://apps.apple.com/us/app/umba/id1572066078">
                   <img className="md:w-[75%]" src={appstore} alt="" />
                 </a>
               </div>
