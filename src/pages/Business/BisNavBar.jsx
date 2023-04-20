@@ -3,7 +3,7 @@ import { useState } from "react"
 import logo from "../../assets/bisLogo.png"
 import { FaAlignJustify } from "react-icons/fa"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md"
-
+import { Link } from "react-router-dom"
 const BisNavBar = () => {
   const [toggle, setToggle] = useState(false)
 
@@ -50,7 +50,7 @@ const BisNavBar = () => {
           </ul>
         </div>
         {/* Hamburger Menu toggle */}
-        <div className="lg:hidden cursor-pointer" onClick={handleClick}>
+        <div className="md:hidden cursor-pointer" onClick={handleClick}>
           {toggle ? (
             <div className="p-3 bg-slate-400 h-full">
               <FaAlignJustify
@@ -74,13 +74,40 @@ const BisNavBar = () => {
         }
       >
         <ul className="p-1 text-center ">
-          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100  ">Press</li>
-          <li className="p-2  cursor-pointer my-6 hover:bg-gray-100">Career</li>
-          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">Blog</li>
-          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">Contact</li>
+          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100  ">
+            <Link to="/press">
+              <a className="font-semibold" href="">
+                Press
+              </a>
+            </Link>
+          </li>
+          <li className="p-2  cursor-pointer my-6 hover:bg-gray-100">
+            <Link to="/career">
+              <a className="font-semibold" href="">
+                career
+              </a>
+            </Link>
+          </li>
+          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">
+            <Link to="/blog">
+              <a
+                className="font-semibold focus:text-[#3d7cc9] active:text-[#3d7cc9]"
+                href=""
+              >
+                blog
+              </a>
+            </Link>
+          </li>
+          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">
+            <Link to="/contact">
+              <a className="font-semibold" href="">
+                contact
+              </a>
+            </Link>
+          </li>
 
           <div>
-            <button className=" bg-[#0d3356] m-auto px-5 py-3 text-white font-semibold hover:bg-[#295994] flex justify-center items-center">
+            <button className=" bg-[#0d3356] m-auto px-5 py-3 text-white font-semibold hover:bg-[#295994] flex justify-center items-center transition duration-500">
               Login/Sign Up
             </button>
           </div>

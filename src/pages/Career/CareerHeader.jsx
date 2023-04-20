@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 const CareerHeader = () => {
   return (
-    <div className="w-full h-[62px] bg-slate-200 ">
+    <div className="w-full h-[62px] bg-slate-100 ">
       <div className="max-w-[1124px] h-[60px] m-auto ">
         <div className="flex justify-start items-center h-full">
           <Link

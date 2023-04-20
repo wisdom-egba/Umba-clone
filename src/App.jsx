@@ -12,9 +12,9 @@ import {
 import { Business } from "./pages/Business"
 import { Career, CareerHeader } from "./pages/Career"
 import { ContactUs } from "./pages/Contact"
-import Blog from "./pages/Blog/Blog"
 import Press from "./pages/Press/Press"
-
+import BlogPage from "./pages/Blog/BlogPage"
+BlogPage
 function App() {
   return (
     <div>
@@ -47,7 +47,7 @@ function App() {
             }
           />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/press" element={<Press />} />
         </Routes>
       </Router>

@@ -74,7 +74,7 @@ const ContactNav = () => {
           </ul>
         </div>
         {/* Hamburger Menu toggle */}
-        <div className="lg:hidden cursor-pointer" onClick={handleClick}>
+        <div className="md:hidden cursor-pointer" onClick={handleClick}>
           {toggle ? (
             <div className="p-3 bg-slate-400 h-full">
               <FaAlignJustify
@@ -98,10 +98,34 @@ const ContactNav = () => {
         }
       >
         <ul className="p-1 text-center ">
-          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100  ">Press</li>
-          <li className="p-2  cursor-pointer my-6 hover:bg-gray-100">Career</li>
-          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">Blog</li>
-          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">Contact</li>
+          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100  ">
+            <Link to="/press">
+              <a className="font-semibold" href="">
+                Press
+              </a>
+            </Link>
+          </li>
+          <li className="p-2  cursor-pointer my-6 hover:bg-gray-100">
+            <Link to="/career">
+              <a className="font-semibold" href="">
+                career
+              </a>
+            </Link>
+          </li>
+          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">
+            <Link to="/blog">
+              <a className="font-semibold" href="">
+                blog
+              </a>
+            </Link>
+          </li>
+          <li className="p-2 cursor-pointer my-6 hover:bg-gray-100">
+            <Link to="/contact">
+              <a className="font-semibold" href="">
+                contact
+              </a>
+            </Link>
+          </li>
 
           <div
             onMouseOver={() => setOpen(true)}
