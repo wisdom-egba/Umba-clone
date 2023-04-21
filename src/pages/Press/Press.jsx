@@ -5,6 +5,7 @@ import { Footer, NavBar } from "../../components"
 import PressInfo from "./PressInfo"
 import PressResource from "./PressResource"
 import PressAccordion from "./PressAccordion"
+import Brand from "./Brand"
 
 const Press = () => {
   return (
@@ -15,6 +16,7 @@ const Press = () => {
       <PressInfo />
       <PressResource />
       <PressAccordion />
+      <Brand />
       <Footer />
     </div>
   )

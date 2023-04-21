@@ -3,10 +3,10 @@ import logoGrid from "../../assets/logo-grid.png"
 const PressResource = () => {
   return (
     <div className="max-w-[340px] md:max-w-[95%] lg:max-w-[70%] m-auto bg-white md:mt-20">
-      <div className="flex ">
+      <div className="flex items-center ">
         <div className="mx-6 w-[53%]">
-          <h1 className="text-[41px] py-6">Press resources</h1>
-          <p className="w-[65%] text-lg font-light">
+          <h1 className="md:text-[41px] lg:text-6xl py-6">Press resources</h1>
+          <p className="w-[65%] text-lg font-normal">
             Here, you will find Umba brand assets including logos, and team
             photos, and how to use them appropriately in different
             circumstances.
@@ -15,8 +15,8 @@ const PressResource = () => {
             DOWNLOAD ASSETS
           </button>
         </div>
-        <div className="mt-4 w-[29%]">
-          <img src={logoGrid} alt="" />
+        <div className="mt-4 w-[29%] lg:w-[25%] flex items-end">
+          <img className="" src={logoGrid} alt="" />
         </div>
       </div>
     </div>
