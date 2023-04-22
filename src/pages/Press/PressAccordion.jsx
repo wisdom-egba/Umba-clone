@@ -8,7 +8,7 @@ const PressAccordion = () => {
       <div className=" bg-[white] pt-[50px] md:pt-[100px] items-start">
         <div className="max-w-[340px] md:max-w-[83%] lg:max-w-[80%] py-10 grid items-start mx-7 ">
           <div className="mx-2  md:mx-7 grid text-start pt-12">
-            <h className="text-[40px] w-[70%] md:text-[40px] mb-11 lg:m-auto leading-tight">
+            <h className="text-[40px] w-[70%] md:text-[40px] mb-11 leading-tight">
               Who are we?
             </h>
           </div>

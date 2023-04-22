@@ -4,9 +4,9 @@ import { BsArrowRight } from "react-icons/bs"
 const BisSignUp = () => {
   return (
     <div className="pt-[60px] grid grid-cols-2">
-      <div className=" bg-white h-[350px] md:h-[410px] lg:h-[800px]"></div>
-      <div className=" bg-[#e0eaf6] h-[350px] md:h-[410px] lg:h-[800px]"></div>
-      <div className=" bg-[#e0eaf6] h-[350px] md:h-[410px] lg:h-[800px] rounded-l-[90px] rounded-r-[90px] flex justify-center absolute right-0 w-[94%] md:w-[97%] lg:w-[84%] md:ml-[90px]">
+      <div className=" bg-white h-[350px] md:h-[410px] lg:h-[500px]"></div>
+      <div className=" bg-[#e0eaf6] h-[350px] md:h-[410px] lg:h-[500px]"></div>
+      <div className=" bg-[#e0eaf6] h-[350px] md:h-[410px] lg:h-[500px] rounded-l-[90px] rounded-r-[90px] flex justify-center absolute right-0 w-[94%] md:w-[97%] lg:w-[84%] md:ml-[90px]">
         <div className=" md:ml-[40px] w-[85%] md:w-[80%] my-[90px] md:my-[97px] lg:my-[123px] ">
           <div className="ml-2 md:ml-8 flex flex-col justify-center  ">
             <h1 className=" leading-tight  text-[28px]  lg:text-[90px] w-[40%] lg:w-[80%] md:text-[69px] py-2 md:w-[40%] ">
