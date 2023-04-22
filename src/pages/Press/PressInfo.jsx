@@ -25,7 +25,12 @@ const PressInfo = () => {
 
   return (
     <div className="max-w-[340px] md:max-w-[95%] lg:max-w-[70%] m-auto bg-white md:mt-20">
-      <h1 className="md:text-7xl md:w-[40%]">Umba in the press</h1>
+      <h1 className=" ml-6 md:ml-0 text-3xl w-[60%] md:text-7xl md:w-[40%]">
+        Umba
+      </h1>
+      <h1 className="ml-6 md:ml-0 text-3xl w-[60%] md:text-7xl md:w-[40%] mb-4">
+        in the press
+      </h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 mx-6 lg:mx-8">
         <PressCard title={title1} content={content1} img={img1} />
         <PressCard title={title2} content={content2} img={img2} />

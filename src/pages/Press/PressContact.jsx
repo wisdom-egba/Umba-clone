@@ -13,7 +13,7 @@ const PressContact = () => {
             press@umba.com
           </a>
         </div>
-        <div className="md:w-[40%] md:mr-40 ">
+        <div className="hidden md:visible md:w-[40%] md:mr-40 ">
           <img src={message} alt="" />
         </div>
       </div>
