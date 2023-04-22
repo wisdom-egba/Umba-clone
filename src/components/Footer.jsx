@@ -14,13 +14,22 @@ const Footer = () => {
         <div className="mr-16 mt-4">
           <h1 className="font-bold mb-3 md:mb-6">Company</h1>
           <div className="flex flex-col">
-            <Link to="/" className="md:mb-3 mb-2 hover:underline">
+            <Link
+              to="/"
+              className="md:mb-3 mb-2 hover:underline md:text-[15px]"
+            >
               Home
             </Link>
-            <Link to="/career" className="md:mb-3 mb-2 hover:underline">
-              Career
+            <Link
+              to="/career"
+              className="md:mb-3 mb-2 hover:underline md:text-[15px]"
+            >
+              Careers
             </Link>
-            <Link to="/contact" className="md:mb-3 mb-2 hover:underline">
+            <Link
+              to="/contact"
+              className="md:mb-3 mb-2 hover:underline md:text-[15px]"
+            >
               Contact Us
             </Link>
           </div>
@@ -29,10 +38,10 @@ const Footer = () => {
           <h1 className="font-bold mb-3 md:mb-6">Locations</h1>
           <ul>
             <li className="md:mb-3 mb-2">
-              <a className="hover:underline" href="#"></a>Nigeria
+              <a className="hover:underline md:text-[15px]" href="#"></a>Nigeria
             </li>
             <li className="md:mb-3 mb-2">
-              <a className="hover:underline" href="#"></a>Kenya
+              <a className="hover:underline md:text-[15px]" href="#"></a>Kenya
             </li>
           </ul>
         </div>
@@ -40,11 +49,12 @@ const Footer = () => {
           <h1 className="font-bold mb-3 md:mb-6">Transparency</h1>
           <ul>
             <li className="mb-3">
-              <a className="hover:underline" href="#"></a>Privacy Policy
+              <a className="hover:underline md:text-[15px]" href="#"></a>Privacy
+              Policy
             </li>
             <li className="mb-3">
-              <a className="hover:underline" href="#"></a>General Terms of
-              Service
+              <a className="hover:underline md:text-[15px]" href="#"></a>General
+              Terms of Service
             </li>
           </ul>
         </div>
@@ -53,7 +63,7 @@ const Footer = () => {
           <ul>
             <div className="mb-3">
               <a
-                className="flex gap-3  items-center hover:text-[#3d7cc9] hover:underline"
+                className="flex gap-3  items-center hover:text-[#3d7cc9] hover:underline md:text-[15px]"
                 href="https://twitter.com/UmbaMobile"
               >
                 <AiOutlineTwitter size={20} />
@@ -62,7 +72,7 @@ const Footer = () => {
             </div>
             <div className="mb-3">
               <a
-                className="flex gap-3  items-center hover:text-[#3d7cc9] hover:underline"
+                className="flex gap-3  items-center hover:text-[#3d7cc9] hover:underline md:text-[15px]"
                 href="https://web.facebook.com/umbamobile/"
               >
                 <BsFacebook size={20} />
@@ -71,7 +81,7 @@ const Footer = () => {
             </div>
             <div className="mb-3">
               <a
-                className="flex gap-3 items-center hover:text-[#d14731] hover:underline"
+                className="flex gap-3 items-center hover:text-[#d14731] hover:underline md:text-[15px]"
                 href="https://www.instagram.com/UmbaMobile/"
               >
                 <FaInstagram size={20} />
@@ -80,7 +90,7 @@ const Footer = () => {
             </div>
             <div className="mb-3">
               <a
-                className="flex gap-3 items-center hover:text-[#3d7cc9] hover:underline"
+                className="flex gap-3 items-center hover:text-[#3d7cc9] hover:underline md:text-[15px]"
                 href="https://www.linkedin.com/company/umbamobile/"
               >
                 <BsLinkedin size={20} />

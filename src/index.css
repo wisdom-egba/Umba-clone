@@ -12,6 +12,10 @@
 body {
   font-family: "Quicksand", sans-serif;
 }
+/* .react-player {
+  height: auto !important;
+  aspect-ratio: 16/9;
+} */
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

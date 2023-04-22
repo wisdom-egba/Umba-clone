@@ -7,7 +7,7 @@ import umba5 from "../../assets/umba5.svg"
 import umba6 from "../../assets/umba6.png"
 const Brand = () => {
   return (
-    <div className="max-w-[340px] md:max-w-[95%] lg:max-w-[70%] m-auto bg-white md:mt-20 border shadow-lg rounded-lg">
+    <div className="max-w-[340px] md:max-w-[95%] lg:max-w-[70%] m-auto bg-white md:mt-20 shadow-lg rounded-lg">
       <h1 className="md:text-[40px] md:w-[85%]  mx-6">Brand Guidelines</h1>
       <p className="md:text-3xl mx-6 md:w-[85%] md:py-4">Logo</p>
       <div className="grid grid-cols-2 w-[85%] place-items-center gap-10 md:mx-6 md:mb-8 ">
