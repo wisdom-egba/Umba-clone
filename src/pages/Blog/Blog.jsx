@@ -35,7 +35,7 @@ const Blog = () => {
               here. Make seamless transactions, pay bill bills, and get loans
               and cash backs, all from your phone.
             </p>
-            <button className="md:mx-4 underline text-[16px] font-extrabold text-blue-700 my-9 md:my-10">
+            <button className="md:mx-4 underline text-[16px] font-extrabold text-blue-700 my-9 md:my-10 outline-none">
               READ MORE
             </button>
           </div>

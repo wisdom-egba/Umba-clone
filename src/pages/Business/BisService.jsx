@@ -22,7 +22,7 @@ const BisService = () => {
               </p>
             </div>
             <div className="pb-[70px] md:px-6 ">
-              <button className="bg-[#3d7cc9] hover:bg-[#0d3356] duration-400  md:bg-[#0d3356] md:hover:bg-[#3d7cc9]   w-full m-auto px-5 py-2 text-white font-semibold text-lg ">
+              <button className="bg-[#3d7cc9] hover:bg-[#0d3356] duration-400  md:bg-[#0d3356] md:hover:bg-[#3d7cc9]   w-full m-auto px-5 py-2 text-white font-semibold text-lg outline-none ">
                 LEARN MORE
               </button>
             </div>

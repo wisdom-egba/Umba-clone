@@ -133,7 +133,7 @@ const NavBar = () => {
             onClick={() => setOpen(!open)}
             onMouseLeave={() => setOpen(false)}
           >
-            <button className=" bg-[#3d7cc9] m-auto px-5 py-3 text-white font-semibold hover:bg-[#498ee2] flex justify-center items-center">
+            <button className=" bg-[#3d7cc9] m-auto px-5 py-3 text-white font-semibold hover:bg-[#498ee2] flex justify-center items-center outline-none">
               Download Umba
               <MdOutlineKeyboardArrowDown
                 size={25}

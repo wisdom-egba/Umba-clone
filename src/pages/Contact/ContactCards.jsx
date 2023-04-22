@@ -10,7 +10,7 @@ const ContactCards = ({ title, btn, text }) => {
         <p className="text-[22px] text-center">{text}</p>
       </div>
       <div className="m-10">
-        <button className="bg-[#3d7cc9] hover:bg-[#0d3356] transition duration-900  md:bg-[#0d3356] md:hover:bg-[#21538f]   w-full m-auto px-6 py-2 text-white font-semibold text-lg">
+        <button className="bg-[#3d7cc9] hover:bg-[#0d3356] transition duration-900  md:bg-[#0d3356] md:hover:bg-[#21538f]   w-full m-auto px-6 py-2 text-white font-semibold text-lg outline-none">
           {btn}
         </button>
       </div>

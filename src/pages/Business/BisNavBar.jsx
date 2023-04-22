@@ -107,7 +107,7 @@ const BisNavBar = () => {
           </li>
 
           <div>
-            <button className=" bg-[#0d3356] m-auto px-5 py-3 text-white font-semibold hover:bg-[#295994] flex justify-center items-center transition duration-500">
+            <button className=" bg-[#0d3356] m-auto px-5 py-3 text-white font-semibold hover:bg-[#295994] flex justify-center items-center transition duration-500 outline-none">
               Login/Sign Up
             </button>
           </div>

@@ -13,7 +13,7 @@ const PressResource = () => {
             photos, and how to use them appropriately in different
             circumstances.
           </p>
-          <button className="mt-20 bg-[#3d7cc9] hover:bg-[#0d3356] transition duration-900  md:bg-[#0d3356] md:hover:bg-[#21538f] m-auto px-9 py-3 text-white font-light text-lg absolute top-[5000px] z-20 left-[70px] md:static ">
+          <button className="mt-20 bg-[#3d7cc9] hover:bg-[#0d3356] transition duration-900  md:bg-[#0d3356] md:hover:bg-[#21538f] m-auto px-9 py-3 text-white font-light text-lg absolute top-[5000px] z-20 left-[70px] md:static outline-none ">
             DOWNLOAD ASSETS
           </button>
         </div>

@@ -36,7 +36,7 @@ const BisInfo = () => {
                 </div>
               </div>
               <div className="py-7 pt-10 md:py-7 md:w-[60%]">
-                <button className="bg-[#3d7cc9] hover:bg-[#0d3356] md:bg-[#0d3356] w-full m-auto px-5 py-2 text-white font-semibold text-lg ">
+                <button className="bg-[#3d7cc9] hover:bg-[#0d3356] md:bg-[#0d3356] w-full m-auto px-5 py-2 text-white font-semibold text-lg outline-none ">
                   REQUEST DEMO
                 </button>
               </div>
