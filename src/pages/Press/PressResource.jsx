@@ -6,7 +6,7 @@ const PressResource = () => {
       <div className="flex items-center ">
         <div className="mx-6 w-[53%]">
           <h1 className="md:text-[41px] lg:text-6xl py-6">Press resources</h1>
-          <p className="w-[65%] text-lg font-normal">
+          <p className="w-[65%] text-lg font-normal md:leading-tight">
             Here, you will find Umba brand assets including logos, and team
             photos, and how to use them appropriately in different
             circumstances.
