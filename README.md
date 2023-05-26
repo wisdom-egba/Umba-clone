@@ -1,2 +1,2 @@
 ﻿# Umba-clone
- hosted link: https://umba-clone.vercel.app/
+ hosted on vercel: https://umba-clone.vercel.app/
