@@ -31,6 +31,8 @@ This project was built using the following technologies:
 
 <h2>Screenshots</h2>
 Here are some screenshots of the website:
+![umba-shot](https://github.com/wisdom-egba/Umba-clone/assets/99222194/833997b6-d2eb-4c09-b454-302c585b9fc3)
+![umba-screenshot](https://github.com/wisdom-egba/Umba-clone/assets/99222194/3b065939-339f-4d5d-85f6-f3c9d5eca70b)
 
 
 <h2>Contributing</h2>
