@@ -35,8 +35,3 @@ Here are some screenshots of the website:
 
 <h2>Contributing</h2>
 Contributions are welcome! Please feel free to open issues or submit pull requests.
-
-<h1>License<h1>
-<p>This project is licensed under the MIT License.
-
-You can customize this README to fit your specific needs. For example, you can add more information about the technologies you used, the screenshots you want to include, and the license you want to use.</p>
