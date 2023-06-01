@@ -2,7 +2,7 @@
  
  This is a React project that clones the Umba website. It is a fully functional website that features a clean and modern design, a responsive layout, and a portfolio of projects.
 
-<h1>Getting Started</h1>
+<h2>Getting Started</h2>
 To get started, clone this repository to your local machine:
 
 git clone https://github.com/wisdom-egba/Umba-clone.git
